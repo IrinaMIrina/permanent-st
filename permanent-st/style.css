@@ -126,7 +126,7 @@ transition: all .3s ease-out;
     position: relative;
       width: 100%;
       /*height: 500px;  Укажите нужную высоту */
-      background: url('/permanent-st/img/photo_main.jpg') no-repeat center center;
+      background: url('./img/photo_main.jpg') no-repeat center center;
       background-size: cover; /* Растягивает фото пропорционально */
       color: white; /* Цвет текста */
       display: flex;
@@ -196,7 +196,7 @@ transition: all .3s ease-out;
     position: relative;
     width: 100%;
     /*height: 500px;  Укажите нужную высоту */
-    background: url('/permanent-st/img/photo_sac3.jpg') no-repeat center center;
+    background: url('./img/photo_sac3.jpg') no-repeat center center;
     background-size: cover; /* Растягивает фото пропорционально */
 }
 

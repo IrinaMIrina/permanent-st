@@ -31,8 +31,8 @@
             </div>    
             <nav class="header_navigation">
                 <ul class="navigation">
-                <li class="navigation_item"><a href="#promo" class="navigation_link">Услуги</a></li>
-                <li class="navigation_link"><a href="#price" class="navigation_link">Цены</a></li>
+                <li class="navigation_item"><a href="#myart" class="navigation_link">Услуги</a></li>
+                <li class="navigation_link"><a href="#aboutme" class="navigation_link">Обо мне</a></li>
                 <li class="navigation_link"><a href="#footer" class="navigation_link">Контакты</a></li>
             </ul>
             </nav>
@@ -52,10 +52,13 @@
         <div class="wrapper">
             <div class="tools_content">
                 <h2>ПРЕИМУЩЕСТВА</h2>
-                <ul class="benefits">
-                    <li><strong>ПРАКТИЧНОСТЬ</strong> -  экономит время на ежедневный макияж.</li>
-                    <li><strong>СТОЙКОСТЬ</strong> - результат сохраняется надолго.</li>
-                    <li><strong>ЕСТЕСТВЕННОСТЬ</strong> - позволяет получить естественный и гармоничный образ.</li>
+                <ul class="list">
+                    <li><img src="./img/svg4.svg" alt="tick" class="svg aboutme__svg">
+                        <strong>ПРАКТИЧНОСТЬ</strong> -  экономит время на ежедневный макияж.</li>
+                    <li>
+                        <img src="./img/svgstar1.svg" alt="tick" class="svg aboutme__svg">
+                        <strong>СТОЙКОСТЬ</strong> - результат сохраняется надолго.</li>
+                    <li><img src="./img/svgstar2.svg" alt="tick" class="svg aboutme__svg"><strong>ЕСТЕСТВЕННОСТЬ</strong> - позволяет получить естественный и гармоничный образ.</li>
                     <li><strong>УНИВЕРСАЛЬНОСТЬ</strong> - подходит для всех возрастных групп и типов внешности.</li>
                     <li><strong>БЕЗОПАСНОСТЬ</strong> - использование качественных пигментов и стерильных инструментов.</li>
                     <li><strong>КОРРЕКЦИЯ НЕДОСТАТКОВ</strong> - устраняет дефекты и несовершенства, подчеркивает достоинства.</li>
@@ -64,27 +67,70 @@
         </div>
     </section>
     
-    <section class="myart">
+    <section class="myart" id="myart">
         <div class="wrapper">
-                <h2 class="myart_h2">Примеры моих работ</h2>
+            <h2>Услуги</h2>
+            <ul class="list myart__list">
+                <li>Перманентный макияж бровей</li>
+                <li>Перманентный макияж губ</li>
+                <li>Перманентный макияж ...???</li>
+            </ul>
+            <h3 class="myart_h3">Примеры моих работ</h3>
             <div class="layout-3-column myart-container">
                 <div class="promo block-shadows">
-                    <h3>Брови</h3>
+                    <h4>Брови</h4>
                     <img src="./img/photo1.jpg" width="375" height="375" alt="promos" class="promo_img"> 
                 </div>
                 <div class="promo block-shadows">
-                    <h3>Губы</h3> 
+                    <h4>Губы</h4> 
                     <img src="./img/photo2.jpg" width="375" height="375" alt="promos" class="promo_img"> 
                 </div>
                 <div class="promo block-shadows">
-                    <h3>Глаза</h3>  
+                    <h4>Межресничка</h4>  
                     <img src="./img/photo3.jpg" width="375" height="375" alt="promos" class="promo_img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="aboutme" id="aboutme">
+        <div class="wrapper">
+            <h2>Почему выбирают меня?</h2>
+            <ul class="list aboutme__list">
+                <li>
+                    <img src="./img/svg4.svg" alt="tick" class="svg aboutme__svg">
+                    <strong>Опыт и квалификация.</strong> Я успешно завершила обучение у известного специалиста Аллы Ромазановой в г.Минске и имею сертификат.
+                </li>
+                <li>
+                    <img src="./img/svg4.svg" alt="tick" class="svg aboutme__svg">
+                     <strong>Художественное образование.</strong> Позволяет создавать красивые и гармоничные образы, подчёркивая индивидуальность каждого клиента.
+                </li>
+                <li>
+                    <img src="./img/svg4.svg" alt="tick" class="svg aboutme__svg">
+                    <strong>Ответственность и забота.</strong> Индивидуальный подход, использование качественных материалов и учет пожеланий клиента.
+                </li>
+                <li>
+                    <img src="./img/svg4.svg" alt="tick" class="svg aboutme__svg">
+                    <strong>Качественные результаты.</strong> Мои работы радуют глаз и повышают уверенность в себе.Выбирая меня, вы получаете качественную услугу и прекрасную трансформацию внешности!
+                </li>
+            </ul>
+            <h3>Сертификат. Мои картины</h3>
+             <div class="layout-2-column myart-container">
+                <div class="myart__picture">
+                    <img src="./img/img_sert.jpg" width="375" height="375" alt="promos" class="promo_img"> 
+                </div>
+                <div class="aboutme myart__picture">
+                    <img src="./img/IMG_0322.jpeg" width="375" height="375" alt="promos" class="promo_img"> 
+                </div>
+                <div class="aboutme myart__picture">
+                    <img src="./img/IMG_0323.jpeg" width="375" height="375" alt="promos" class="promo_img"> 
+                </div>
+                <div class="aboutme myart__picture"> 
+                    <img src="./img/IMG_0324.jpeg" width="375" height="375" alt="promos" class="promo_img">
                 </div>
             </div>
 
         </div>
     </section>
-   
     <footer class="footer" id="footer">
         <div class="wrapper footer__wrapper">
             <a href="#" class="footer__logo-link">
@@ -93,14 +139,14 @@
         <div class ="footer-navigation layout-3-column">
             <div class="footer-navigation__column">
                 <ul class="footer-navigation__links">
-                    <li class="footer_link"><a href="#promo" class="navigation_link">Услуги</a></li>
-                    <li class="footer_link"><a href="#price" class="navigation_link">Цены</a></li>
+                    <li class="footer_link"><a href="#myart" class="navigation_link">Услуги</a></li>
+                    <li class="footer_link"><a href="#aboutme" class="navigation_link">Обо мне</a></li>
                     <li class="footer_link"><a href="#footer" class="navigation_link">Контакты</a></li>
                 </ul>
             </div>
         <div class="footer-navigation__column">
             <h4 class="footer-navigation__title">Звоните</h4>
-            <a class="header_phone" href="tel:+375259260670">(8029) 294-15-05</a>
+            <a class="header_phone" href="tel:+375292941505">(8029) 294-15-05</a>
                 <p>9:00 - 18:00</p>
             </div>
         <div class="footer-navigation__column">

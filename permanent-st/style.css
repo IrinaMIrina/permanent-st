@@ -20,8 +20,12 @@ body{
     line-height: 2.6rem;
     font-family: 'Open Sans', Verdana, sans-serif; 
 }
-    
 
+ul {
+      list-style: none; /* Убираем стандартные маркеры */
+      padding: 0;
+    }
+    
 h1{
     font-family: 'Poppins', Verdana, sans-serif;
     font-style: normal;
@@ -44,6 +48,14 @@ h3{
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 3.4rem;
+    text-align: center;
+    margin: 10px 0 25px;
+}
+h4{
+    font-style: normal;
+    font-weight: bold;
+    /*font-size: 2.4rem;
+    line-height: 3.4rem;*/
     text-align: center;
     margin: 10px 0 25px;
 }
@@ -86,7 +98,7 @@ text-decoration: none;
 font-weight: bold;
 transition: all .3s ease-out;
  &:hover {
-        color: blue;
+        color: pink;
     }
 }
 
@@ -108,7 +120,7 @@ transition: all .3s ease-out;
     cursor: pointer;
     transition: all .3s ease-out;
     *&:hover {
-        color: blue;
+        color: pink;
         font-weight: bold;
     }
 }
@@ -184,9 +196,22 @@ transition: all .3s ease-out;
     box-shadow: 0px 4px 20px rgba( 0, 0, 0.05);
 }
 
-/*price*/
-.price{
+/*aboutme*/
+.aboutme{
     padding: 30px 0;
+    box-shadow: 0px 4px 20px rgba( 0, 0, 0.05);
+}
+
+.svg {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+
+.layout-2-column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 /*footer*/
@@ -215,14 +240,14 @@ transition: all .3s ease-out;
     list-style: none;
     cursor: pointer;
     &:hover{
-        color: blue;
+        color: palevioletred;
     }
 }
 .messenger-link{
     color: black;
     text-decoration: none;
     &:hover{
-        color:blue;
+        color:palevioletred;
         text-decoration: underline;
     }
 }
@@ -274,10 +299,10 @@ transition: all .3s ease-out;
         padding: 20px 0;
     
     }
-    .myart_h2{
+    .myart_h3{
         margin-bottom: 10px;
     }
-    .benefits{
+    .list{
         list-style-type: none;
     }
     .price_box{

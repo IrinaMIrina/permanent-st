@@ -126,9 +126,6 @@ transition: all .3s ease-out;
 }
 
 /*promo*/
-.promo{
-    padding: 30px 0;
-}
 .promo_text{
     margin: auto;
     text-align: center;

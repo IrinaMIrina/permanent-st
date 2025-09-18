@@ -134,6 +134,7 @@ transition: all .3s ease-out;
 .promo__block{
     position: relative;
       width: 100%;
+      height: 510px;
       /*height: 500px;  Укажите нужную высоту */
       background: url('./img/photo_main.jpg') no-repeat center center;
       background-size: cover; /* Растягивает фото пропорционально */
@@ -313,6 +314,9 @@ transition: all .3s ease-out;
     }
     .header-container{
         flex-wrap: wrap;
+    }
+    .header__logo-picture{
+    max-height: 85px;
     }
     .promo_img{
         width: 260px;
